@@ -1,0 +1,27 @@
+<!doctype html>
+<title>KLSE Fundamental Analysis by KJ</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+	<h1>KLSE Fundamental Analysis</h1>
+	<form method="POST">
+	   <input name="code", placeholder="Enter Stock Code">
+	   <input type="submit">
+	</form>
+	<br>
+<!-- 	<h2>First Stage Filter</h2>
+	- ROI avg >= 6.0%<br>
+	- ROE avg >= 6.0%<br>
+	- EPS GR avg >= 6.0%<br>
+	- nYear >= 5 years<br>
+	<br> -->
+	<h2>{{titles[0]}}</h2>
+	{{tables[0] | safe}}
+	{{tables[1] | safe}}
+	{{tables[2] | safe}}
+	<br>
+	<h2>{{titles[1]}}</h2>
+	{{tables[3] | safe}}
+	<!-- <br> -->
+	<!-- <h2>Graphs</h2> -->
+	<img src='{{ images }}' alt='graphs' height='1300' width='1300' align='left'>
+</div>
