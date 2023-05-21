@@ -1,4 +1,4 @@
-# SMFA 2.0
+# KLSE Fundamental Analysis
 
 This project was catered towards my personal preference and research. This project is now open to public due to my decision for dropping this project after Morningstar.com changes their web design. (Not sure when tho.)
 
