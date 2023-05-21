@@ -14,6 +14,8 @@ The stock exchange involved is KLSE in Malaysia only.
 
 ## Final Words
 Please do share if you managed to find a source similar to what Morningstar.com can provide. 
+
 Another source that could do is "https://klse.i3investor.com/", but might need more calculations and not as much information as Morningstar.
 The decision for dropping this project is not final, may come back in the future.
+
 Hope you who tried this have fun. =D
