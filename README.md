@@ -4,7 +4,7 @@ This project was catered towards my personal preference and research. This proje
 
 The stock exchange involved is KLSE in Malaysia only.
 
-## Reguire
+## Requirement
 1. Python 3.10.6
 2. Selenium 4.9.1
 3. Selenium web driver
